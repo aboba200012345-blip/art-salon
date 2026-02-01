@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Художній салон</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Художній салон</div>
+        <nav class="nav">
+            <a href="#about">Про салон</a>
+            <a href="#gallery">Галерея</a>
+            <a href="#artists">Художники</a>
+            <a href="#contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <h1>Ласкаво просимо до художнього салону</h1>
+            <p>
+                Наш художній салон представляє роботи сучасних та класичних митців. 
+                Тут ви можете познайомитися з різними стилями живопису, 
+                від реалізму до абстракції.
+            </p>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Галерея картин</h2>
+            <div class="gallery">
+                <!-- Заміни посилання src на реальні зображення з Інтернету -->
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Claude_Monet%2C_Impression%2C_soleil_levant.jpg" alt="Клод Моне">
+                    <h3>«Враження. Схід сонця»</h3>
+                    <p>Клод Моне, 1872 рік. Один із ключових творів імпресіонізму.</p>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Вінсент ван Гог">
+                    <h3>«Зоряна ніч»</h3>
+                    <p>Вінсент ван Гог, 1889 рік. Відоме полотно постімпресіонізму.</p>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg" alt="Леонардо да Вінчі">
+                    <h3>«Мона Ліза»</h3>
+                    <p>Леонардо да Вінчі, близько 1503–1506 рр. Один із найвідоміших портретів у світі.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artists" class="section">
+            <h2>Про художників</h2>
+            <div class="artists">
+                <article class="artist">
+                    <h3>Клод Моне</h3>
+                    <p>
+                        Французький живописець, один із засновників імпресіонізму. 
+                        У своїх роботах особливу увагу приділяв світлу та кольору.
+                    </p>
+                </article>
+                <article class="artist">
+                    <h3>Вінсент ван Гог</h3>
+                    <p>
+                        Нідерландський художник-постімпресіоніст. 
+                        Відомий емоційною експресією та яскравою палітрою.
+                    </p>
+                </article>
+                <article class="artist">
+                    <h3>Леонардо да Вінчі</h3>
+                    <p>
+                        Італійський художник, винахідник і вчений епохи Відродження. 
+                        Його роботи поєднують точність спостереження та глибину образу.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Контакти</h2>
+            <p>Адреса: м. Ополе-Любельське, художній салон «Art Gallery»</p>
+            <p>Телефон: +48 123 456 789</p>
+            <p>Email: art-salon@example.com</p>
+
+            <form class="contact-form">
+                <h3>Зворотній зв'язок</h3>
+                <label>
+                    Ім'я:
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Повідомлення:
+                    <textarea name="message" rows="4" required></textarea>
+                </label>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Художній салон. Навчальний проєкт.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
